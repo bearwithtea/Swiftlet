@@ -12,10 +12,20 @@ The way that Quizlet is setup lends itself well to a file system. There are sets
 My choice of language was a bit more esoteric and personal. I like Swift a lot, it has a beautiful type set and is easy to interact with. It is also wicked fast, which lent itself to the project at hand.
 #### Result
 ##### Questions
-![ ](QuestionCode.png)
+
+  <img src="https://github.com/user-attachments/assets/8effc14c-2003-4d74-a190-ed5d91851c18" alt="Swiftlet question creation" width="600" height="600">
+
 This code is responsible for getting a user's question and respective answer, and then storing it into a dictionary with a question number as a key.
 ##### Answers
-![ ](AnswerCode.png)
+<img src="https://github.com/user-attachments/assets/a0dc7336-fe84-415c-a4a1-a7740ff996dc" alt="Swiftlet AnswerCode" width="600" height="900">
+
 This code compares the user's answer to a question. If the answer is correct, a point is added to their score. If the answer is incorrect, the user is given a chance to correct their mistake. If the corrected answer is still wrong, a point is deducted from their score.
 ##### Demo
-![ ](Demo.mov)
+
+ 
+
+
+https://github.com/user-attachments/assets/705efc49-da84-4d14-83d8-143311dc0cd0
+
+
+
