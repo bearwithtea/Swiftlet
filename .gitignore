@@ -1,0 +1,9 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+/Users/owenmcgrath/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Home/Personal/Software Engineering/Swiftlet/Screen Recording 2024-08-13 at 11.05.09 AM.mov
