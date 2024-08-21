@@ -1,8 +1,21 @@
 # Swiftlet
 #### A Quizlet clone built entirely with Swift and accessible through the CLI
 ### Why
-One of my favorite studying tools is Quizlet. It is one of the few applications that I find the premium version worth paying for. However, it can be slow and quite bloated since it is limited by being a web app. and wrapped in a (very pretty) UI.
+One of my favorite studying tools is Quizlet. It is one of the few applications that I find the premium version worth paying for. It makes it easy to create flashcards and review them.
 
-Since I have used Quizlet for quite a while, I understand what makes it so powerful. It isn't the AI features or the extra study modes; it's the ability to create and review flashcards really quickly.
+However, since it is a web application and rich with features, there can be quite a lot of bloat. Sometimes, Quizlet seems to just shut down and throws me into a white screen, which is frustrating when I am in the study "flow."
 
-I wanted to recreated this within the command line making it even faster and easier.
+Because of this, I wanted to recreate the fundamentals of Quizlet with stripped down functionality to just what I needed: flashcards.
+#### How
+The way that Quizlet is setup lends itself well to a file system. There are sets (files) which are stored in folders (directories). This made my choice of platform easy, as the terminal is the quickest way to interact with your computer's files. This also means that Swiftlet is entirely local and personal.
+
+My choice of language was a bit more esoteric and personal. I like Swift a lot, it has a beautiful type set and is easy to interact with. It is also wicked fast, which lent itself to the project at hand.
+#### Result
+##### Questions
+![ ](QuestionCode.png)
+This code is responsible for getting a user's question and respective answer, and then storing it into a dictionary with a question number as a key.
+##### Answers
+![ ](AnswerCode.png)
+This code compares the user's answer to a question. If the answer is correct, a point is added to their score. If the answer is incorrect, the user is given a chance to correct their mistake. If the corrected answer is still wrong, a point is deducted from their score.
+##### Demo
+![ ](Demo.mov)
