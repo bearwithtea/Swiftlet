@@ -67,7 +67,7 @@ public class ReadSet
 
         for (index, question) in studySetData.questions.enumerated()
         {
-            print("Q\(index + 1): \(question.question)")
+            print("Q\(index + 1): \(question.answer)")
             print("Your answer: ", terminator: "")
 
             if let userAnswer = readLine() {
