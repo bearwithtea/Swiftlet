@@ -67,7 +67,7 @@ public class ReadSet
 
         for (index, question) in studySetData.questions.enumerated()
         {
-            print("Q\(index + 1): \(question.answer)")
+            print("Q\(index + 1): \(question.question)")
             print("Your answer: ", terminator: "")
 
             if let userAnswer = readLine() {
@@ -78,6 +78,7 @@ public class ReadSet
                 }
                 else
                 {
+                    print("Correct Answer:  \(question.answer)")
                     print("Close Enough? (Y/N): ")
                     guard let closeEnoughAnswer = readLine(), !closeEnoughAnswer.isEmpty else
                     {
